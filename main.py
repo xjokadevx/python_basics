@@ -1,6 +1,3 @@
-# Importing values
-from Practices.inputValues import inputName
-from Practices.ConcatValues import sayhello
+from Projects.NameGeneratorP1 import main as NameGenerator
 
-values = inputName()
-print(sayhello(values))
+NameGenerator()
